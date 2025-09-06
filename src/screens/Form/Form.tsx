@@ -19,12 +19,12 @@ export default function Form() {
     </Text>
 
     <View style={styles.dados}>
-      <FormTextInput label="Nome" pass="Seu nome" />
-      <FormTextInput label="Sobrenome" pass="Seu sobrenome" />
-      <FormTextInput label="Email" pass="Seu email" />
-      <FormTextInput label="Número do cartão" pass="" />
-      <FormTextInput label="Validade" pass="" />
-      <FormTextInput label="CVV" pass="" />
+      <FormTextInput label="Nome" placeholder="Seu nome" />
+      <FormTextInput label="Sobrenome" placeholder="Seu sobrenome" />
+      <FormTextInput label="Email" placeholder="Seu email" />
+      <FormTextInput label="Número do cartão" placeholder="" />
+      <FormTextInput label="Validade" placeholder="" />
+      <FormTextInput label="CVV" placeholder="" />
       <ButtonHome title="Enviar" onPress={() => {}} />
     </View>
   </KeyboardAwareScrollView>
