@@ -4,7 +4,7 @@ import { styles } from './TextInputStyle';
 
 
 interface FormTextInputProps{
-  pass:string
+  placeholder:string
   label:string
 }
 
@@ -19,7 +19,7 @@ export function FormTextInput(props : FormTextInputProps) {
 
       <TextInput
         style={styles.inputer}
-        value={props.pass}
+        placeholder={props.placeholder}
       />
     </View>
   );

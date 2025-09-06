@@ -1,28 +1,32 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  appContainer: {
+  FormContainer: {
     flex: 1,
     backgroundColor: '#09080d',
+  },
+
+  content: {
+    flexGrow: 1,           
     alignItems: 'center',
     justifyContent: 'center',
+    padding: 16,
   },
-  logoContainer:{
-    flexDirection:'column',
-    borderColor: '#ffffff',
-    borderWidth:2,
-    justifyContent:'center',
-    alignSelf:'center',
-    marginBottom:60,
-    paddingTop:20,
-    paddingBottom:10,
-    backgroundColor:'#4D4D4D'
+
+  header: {
+    textAlign: 'center',
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#ffffff',
+    marginBottom: 16,
   },
-  inputContainer:{
-    width:'80%',
-    flexDirection:'column',
-    alignItems:'center',
-  }
+
+  dados: {
+    width: '99%',
+    backgroundColor: '#1e1e1e',
+    padding: 16,
+    borderRadius: 8,
+  },
 });
 
 export default styles;
