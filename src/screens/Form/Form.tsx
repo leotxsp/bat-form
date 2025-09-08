@@ -3,7 +3,7 @@ import { Text , View} from "react-native";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import styles from "./FormStyle";
 import { FormTextInput } from "../../components/TextInput/FormTextInput";
-import { ButtonHome } from "../../components/ButtonHome/ButtonHome";
+import { Submit_Button } from "../../components/Submit_Button/SubmitButton";
 
 export default function Form() {
   return (
@@ -25,7 +25,7 @@ export default function Form() {
       <FormTextInput label="Número do cartão" placeholder="" />
       <FormTextInput label="Validade" placeholder="" />
       <FormTextInput label="CVV" placeholder="" />
-      <ButtonHome title="Enviar" onPress={() => {}} />
+      <Submit_Button title="Enviar" onPress={() => {}} />
     </View>
   </KeyboardAwareScrollView>
 
