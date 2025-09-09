@@ -5,7 +5,7 @@ import styles from "./FormStyle";
 import { FormTextInput } from "../../components/TextInput/FormTextInput";
 import { Submit_Button } from "../../components/Submit_Button/SubmitButton";
 
-export default function Form() {
+export default function Form({ navigation }) {
   return (
   <KeyboardAwareScrollView
     style={styles.FormContainer}
@@ -25,7 +25,7 @@ export default function Form() {
       <FormTextInput label="Número do cartão" placeholder="" />
       <FormTextInput label="Validade" placeholder="" />
       <FormTextInput label="CVV" placeholder="" />
-      <Submit_Button title="Enviar" onPress={() => {}} />
+      <Submit_Button navigation={navigation} />
     </View>
   </KeyboardAwareScrollView>
 

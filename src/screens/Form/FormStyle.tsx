@@ -20,13 +20,6 @@ const styles = StyleSheet.create({
     color: '#ffffff',
     marginBottom: 16,
   },
-
-  dados: {
-    width: '99%',
-    backgroundColor: '#1e1e1e',
-    padding: 16,
-    borderRadius: 8,
-  },
 });
 
 export default styles;

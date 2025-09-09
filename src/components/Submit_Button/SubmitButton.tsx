@@ -8,7 +8,7 @@ export function Submit_Button(props) {
 
 
   const handleNavigateToForm = () => {
-    navigation.navigate('form');
+    navigation.navigate('Final');
     
   }
 
